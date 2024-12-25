@@ -1,3 +1,4 @@
+<title>新年あけましておめでとうございます</title>
 <dialog><p>機種によっては表示崩れする場合があります。iPad第7世代での動作を確認しています</p></dialog>
 <font face="ＭＳ Ｐ明朝">あなたの今年の運勢は....</font></br>
 <font face="ＭＳ Ｐ明朝">大吉です。</font></br>
@@ -9,4 +10,21 @@
 
 
 <fooder>
-<font color="black" size="0.2" face="Comic Sans MS">作成者:林　航汰</font><br/>
+<font color="black" size="0.2" face="Comic Sans MS">作成者:林　航汰</font><br>
+<script language="JavaScript">
+  function keepBottom() {
+      document.getElementById("bottom_text").style.pixelTop =
+          document.body.clientHeight - document.getElementById("bottom_text").offsetHeight;
+  }
+
+  onload   = keepBottom;
+  onscroll = keepBottom;
+  onresize = keepBottom;
+</script>
+</head>
+
+<body>
+<div id="bottom_text" style="position: absolute;">作成者:林こうた</div>
+</body>
+
+</html>
