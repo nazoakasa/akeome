@@ -1,3 +1,21 @@
-<font face="ＭＳ Ｐ明朝" color="red">Samurai</font><br/>
-<font size="6" face="arial black">Samurai</font><br/>
-<font color="orange" size="1" face="Comic Sans MS">作成者:林　航汰</font><br/>
+<html>
+
+<head>
+<title>テスト</title>
+<script language="JavaScript">
+  function keepBottom() {
+      document.getElementById("bottom_text").style.pixelTop =
+          document.body.clientHeight - document.getElementById("bottom_text").offsetHeight;
+  }
+
+  onload   = keepBottom;
+  onscroll = keepBottom;
+  onresize = keepBottom;
+</script>
+</head>
+
+<body>
+<div id="bottom_text" style="position: absolute;">作成者:林航汰</div>
+</body>
+
+</html>
